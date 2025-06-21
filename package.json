@@ -1,0 +1,62 @@
+{
+  "name": "file-sharing",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A simple file sharing application between two peers on same network.",
+  "author": "Vidhan Raut",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "directory": "file-sharing",
+    "url": "https://github.com/vidhan31/file-sharing"
+  },
+  "keywords": [
+    "file-sharing",
+    "peer-to-peer",
+    "network",
+    "react",
+    "vite",
+    "tailwindcss"
+  ],
+  "homepage": "https://github.com/vidhan31/file-sharing",
+  "bugs": {
+    "url": "https://github.com/vidhan31/file-sharing/issues"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "socket.io-client": "^4.8.1",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@types/eslint-plugin-jsx-a11y": "^6.10.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^9.31.0",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.36.0",
+    "vite": "7.0.4"
+  }
+}
