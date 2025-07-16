@@ -50,5 +50,11 @@ Pear is a modern, privacy-focused peer-to-peer file sharing application for loca
 ### Setup
 
 ```sh
-npm
+npm install
+```
+
+### Running the App
+
+```sh
+npm run dev
 ```
