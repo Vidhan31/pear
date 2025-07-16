@@ -16,6 +16,16 @@ Pear is a modern, privacy-focused peer-to-peer file sharing application for loca
 - **Progress & Speed Reporting:** Real-time transfer progress and speed feedback.
 - **No Third-Party File Servers:** Only a lightweight Socket.IO signaling server is required for connection setup.
 
+## Planned Features
+
+- **Multi-file & Folder Transfer:** Select and send multiple files or entire folders in a single session.
+- **Transfer History:** View a history of sent and received files.
+- **Peer Nicknames & Avatars:** Assign custom names and avatars to peers for easier identification.
+- **LAN QR Code Connect:** Scan a QR code to quickly connect devices on the same network.
+- **Dark Mode:** Toggle between light and dark themes.
+- **Accessibility Improvements:** Enhanced keyboard navigation and screen reader support.
+- **PWA Support:** Progressive Web App capabilities for native-like user experience.
+
 ## Tech Stack
 
 - **Frontend:** React 19.1, Vite 7.2, TypeScript 5.8, Tailwind CSS 4.1
@@ -40,5 +50,5 @@ Pear is a modern, privacy-focused peer-to-peer file sharing application for loca
 ### Setup
 
 ```sh
-npm install
+npm
 ```
